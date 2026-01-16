@@ -1,0 +1,1158 @@
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.339849233627319
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_sampling_fabind.py --ckpt ../ckpt/confidence_model.bin --use-clustering --infer-dropout --sample-size 10 --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_sampling_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_sampling_fabind.py --ckpt ../ckpt/confidence_model.bin --use-clustering --infer-dropout --sample-size 10 --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_sampling_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 34.104268074035645
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.054996013641357
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.202444314956665
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.23366379737854
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 0.027132272720336914
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.136021375656128
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.252228498458862
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.267719030380249
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.207545757293701
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.286268711090088
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.210348129272461
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.27400803565979
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.197350978851318
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.140786409378052
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.211005210876465
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.317972660064697
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/temp_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.616827726364136
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.249112367630005
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.192496299743652
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 4
+FABind plus
+Begin inference
+End infer, time spent: 4.095340013504028
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 4
+FABind plus
+Begin inference
+Saved pocket representations to ../inference_examples/inference_output/repr/pocket_repr.pt
+Total pocket representations saved: 4
+End infer, time spent: 4.618786096572876
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 4
+FABind plus
+Begin inference
+Saved pocket representations to ../inference_examples/inference_output/repr/pocket_repr.pt
+Total pocket representations saved: 4
+End infer, time spent: 5.592188835144043
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 4
+FABind plus
+Begin inference
+Saved pocket representations to ../inference_examples/inference_output/repr/pocket_repr.pt
+Total pocket representations saved: 4
+End infer, time spent: 7.013556718826294
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 4
+FABind plus
+Begin inference
+Saved pocket representations to ../inference_examples/inference_output/repr/pocket_repr.pt
+Total pocket representations saved: 4
+End infer, time spent: 4.645090579986572
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 4
+FABind plus
+Begin inference
+Saved pocket representations to ../inference_examples/inference_output/repr/pocket_repr.pt
+Total pocket representations saved: 4
+End infer, time spent: 4.864450454711914
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 4
+FABind plus
+Begin inference
+Saved pocket representations to ../inference_examples/inference_output/repr/pocket_repr.pt
+Total pocket representations saved: 4
+End infer, time spent: 4.816215515136719
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+Using instance ID: pid_814895
+Created LMDB databases:
+  PDB: ../inference_examples/inference_output/complex_pdb_pid_814895.lmdb
+  Indices: ../inference_examples/inference_output/pocket_indices_pid_814895.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 4
+FABind plus
+Begin inference
+Starting LMDB storage of complex structures and pocket indices...
+Storing 4 PDB structures to LMDB...
+Storing 4 pocket indices to LMDB...
+Successfully stored 4 complexes to LMDB databases
+PDB database: ../inference_examples/inference_output/complex_pdb_pid_814895.lmdb
+Indices database: ../inference_examples/inference_output/pocket_indices_pid_814895.lmdb
+End infer, time spent: 4.818260908126831
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+Using instance ID: pid_1185188
+Created LMDB databases:
+  PDB: ../inference_examples/inference_output/complex_pdb_pid_1185188.lmdb
+  Indices: ../inference_examples/inference_output/pocket_indices_pid_1185188.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 4
+FABind plus
+Begin inference
+Starting LMDB storage of complex structures and pocket indices...
+Storing 4 PDB structures to LMDB...
+Storing 4 pocket indices to LMDB...
+Successfully stored 4 complexes to LMDB databases
+PDB database: ../inference_examples/inference_output/complex_pdb_pid_1185188.lmdb
+Indices database: ../inference_examples/inference_output/pocket_indices_pid_1185188.lmdb
+End infer, time spent: 6.139845132827759
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+Using instance ID: pid_1716333
+Created LMDB databases:
+  PDB: ../inference_examples/inference_output/complex_pdb_pid_1716333.lmdb
+  Indices: ../inference_examples/inference_output/pocket_indices_pid_1716333.lmdb
+Protein save mode: pocket
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 4
+FABind plus
+Begin inference
+Starting LMDB storage of complex structures and pocket indices...
+Using pocket protein mode: 117 residues
+Storing 4 PDB structures to LMDB...
+Storing 4 pocket indices to LMDB...
+Successfully stored 4 complexes to LMDB databases
+PDB database: ../inference_examples/inference_output/complex_pdb_pid_1716333.lmdb
+Indices database: ../inference_examples/inference_output/pocket_indices_pid_1716333.lmdb
+End infer, time spent: 4.641764163970947
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+Using instance ID: pid_1717516
+Created LMDB databases:
+  PDB: ../inference_examples/inference_output/complex_pdb_pid_1717516.lmdb
+  Indices: ../inference_examples/inference_output/pocket_indices_pid_1717516.lmdb
+Protein save mode: full
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files --protein-save-mode full
+data point: 4
+FABind plus
+Begin inference
+Starting LMDB storage of complex structures and pocket indices...
+Using full protein mode: 132 residues
+Storing 4 PDB structures to LMDB...
+Storing 4 pocket indices to LMDB...
+Successfully stored 4 complexes to LMDB databases
+PDB database: ../inference_examples/inference_output/complex_pdb_pid_1717516.lmdb
+Indices database: ../inference_examples/inference_output/pocket_indices_pid_1717516.lmdb
+End infer, time spent: 4.9205238819122314
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+Using instance ID: pid_72538
+Created LMDB databases:
+  PDB: ../inference_examples/inference_output/complex_pdb_pid_72538.lmdb
+  Indices: ../inference_examples/inference_output/pocket_indices_pid_72538.lmdb
+Protein save mode: full
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files --protein-save-mode full
+data point: 4
+FABind plus
+Begin inference
+Starting LMDB storage of complex structures and pocket indices...
+Using full protein mode: 132 residues
+Storing 4 PDB structures to LMDB...
+Storing 4 pocket indices to LMDB...
+Successfully stored 4 complexes to LMDB databases
+PDB database: ../inference_examples/inference_output/complex_pdb_pid_72538.lmdb
+Indices database: ../inference_examples/inference_output/pocket_indices_pid_72538.lmdb
+End infer, time spent: 5.298709154129028
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+Using instance ID: pid_1004177
+Created LMDB databases:
+  PDB: ../inference_examples/inference_output/ligand_pdb_pid_1004177.lmdb
+  Indices: ../inference_examples/inference_output/pocket_indices_pid_1004177.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 5
+FABind plus
+Begin inference
+Starting LMDB storage of ligand structures and pocket indices...
+Storing ligand structures with 117 pocket residue indices
+Storing 5 ligand PDB structures to LMDB...
+Storing 5 pocket indices to LMDB...
+Successfully stored 5 ligand structures to LMDB databases
+PDB database: ../inference_examples/inference_output/ligand_pdb_pid_1004177.lmdb
+Indices database: ../inference_examples/inference_output/pocket_indices_pid_1004177.lmdb
+End infer, time spent: 6.090339660644531
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+Using instance ID: pid_1014993
+Created LMDB databases:
+  PDB: ../inference_examples/inference_output/ligand_pdb_pid_1014993.lmdb
+  Indices: ../inference_examples/inference_output/pocket_indices_pid_1014993.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 5
+FABind plus
+Begin inference
+Starting LMDB storage of ligand structures and pocket indices...
+Storing ligand structures with 117 pocket residue indices
+Storing 5 ligand PDB structures to LMDB...
+Storing 5 pocket indices to LMDB...
+Successfully stored 5 ligand structures to LMDB databases
+PDB database: ../inference_examples/inference_output/ligand_pdb_pid_1014993.lmdb
+Indices database: ../inference_examples/inference_output/pocket_indices_pid_1014993.lmdb
+End infer, time spent: 6.044472694396973
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind/FABind_plus/fabind
+Using instance ID: pid_1022601
+Created LMDB databases:
+  SDF: ../inference_examples/inference_output/ligand_sdf_pid_1022601.lmdb
+  Indices: ../inference_examples/inference_output/pocket_indices_pid_1022601.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+data point: 5
+FABind plus
+Begin inference
+Starting LMDB storage of ligand structures and pocket indices...
+Storing ligand structures with 117 pocket residue indices
+Storing 5 ligand SDF structures to LMDB...
+Storing 5 pocket indices to LMDB...
+Successfully stored 5 ligand structures to LMDB databases
+SDF database: ../inference_examples/inference_output/ligand_sdf_pid_1022601.lmdb
+Indices database: ../inference_examples/inference_output/pocket_indices_pid_1022601.lmdb
+End infer, time spent: 6.693548917770386
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_666942
+Created LMDB databases:
+  SDF: ../inference_examples/inference_output/ligand_sdf_pid_666942.lmdb
+  Indices: ../inference_examples/inference_output/pocket_indices_pid_666942.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 6
+No existing keys found, processing all data
+Data points to process: 5
+FABind plus
+Begin inference
+Starting LMDB storage of ligand structures and pocket indices...
+Storing ligand structures with 117 pocket residue indices
+Storing 5 ligand SDF structures to LMDB...
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_667312
+Created LMDB databases:
+  SDF: ../inference_examples/inference_output/ligand_sdf_pid_667312.lmdb
+  Indices: ../inference_examples/inference_output/pocket_indices_pid_667312.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 6
+No existing keys found, processing all data
+Data points to process: 6
+FABind plus
+Begin inference
+Starting LMDB storage of ligand structures and pocket indices...
+Storing ligand structures with 117 pocket residue indices
+Storing 6 ligand SDF structures to LMDB...
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_667529
+LMDB paths prepared:
+  SDF: ../inference_examples/inference_output/ligand_sdf_pid_667529.lmdb
+  Indices: ../inference_examples/inference_output/pocket_indices_pid_667529.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../inference_examples/inference_output --index-csv ../inference_examples/example.csv --preprocess-dir ../inference_examples/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 6
+No existing keys found, processing all data
+Data points to process: 6
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Starting LMDB storage of ligand structures and pocket indices...
+Storing ligand structures with 117 pocket residue indices
+Storing 6 ligand SDF structures to LMDB...
+Storing 6 pocket indices to LMDB...
+Successfully stored 6 ligand structures to LMDB databases
+SDF database: ../inference_examples/inference_output/ligand_sdf_pid_667529.lmdb
+Indices database: ../inference_examples/inference_output/pocket_indices_pid_667529.lmdb
+End infer, time spent: 7.844229221343994
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_2276849
+LMDB paths prepared:
+  SDF: ../val_affinity/inference_output/ligand_sdf_pid_2276849.lmdb
+  Indices: ../val_affinity/inference_output/pocket_indices_pid_2276849.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../val_affinity/inference_output --index-csv ../val_affinity/data.csv --preprocess-dir ../val_affinity/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 345
+No existing keys found, processing all data
+Data points to process: 345
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Starting LMDB storage of ligand structures and pocket indices...
+Storing ligand structures with 140 pocket residue indices
+Storing 345 ligand SDF structures to LMDB...
+Storing 345 pocket indices to LMDB...
+Successfully stored 345 ligand structures to LMDB databases
+SDF database: ../val_affinity/inference_output/ligand_sdf_pid_2276849.lmdb
+Indices database: ../val_affinity/inference_output/pocket_indices_pid_2276849.lmdb
+End infer, time spent: 284.6991310119629
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_2124827
+LMDB paths prepared:
+  SDF: ../val_affinity/inference_output/ligand_sdf_pid_2124827.lmdb
+  Indices: ../val_affinity/inference_output/pocket_indices_pid_2124827.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../val_affinity/inference_output --index-csv ../val_affinity/data.csv --preprocess-dir ../val_affinity/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 2707
+No existing keys found, processing all data
+Data points to process: 2707
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Starting LMDB storage of ligand structures and pocket indices...
+Storing ligand structures with 178 pocket residue indices
+Storing 2707 ligand SDF structures to LMDB...
+Storing 2707 pocket indices to LMDB...
+Successfully stored 2707 ligand structures to LMDB databases
+SDF database: ../val_affinity/inference_output/ligand_sdf_pid_2124827.lmdb
+Indices database: ../val_affinity/inference_output/pocket_indices_pid_2124827.lmdb
+End infer, time spent: 2082.489930152893
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_1523343
+LMDB paths prepared:
+  SDF: ../casp16/inference_output/ligand_sdf_pid_1523343.lmdb
+  Indices: ../casp16/inference_output/pocket_indices_pid_1523343.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../casp16/inference_output --index-csv ../casp16/data.csv --preprocess-dir ../casp16/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 30
+No existing keys found, processing all data
+Data points to process: 30
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Starting LMDB storage of ligand structures and pocket indices...
+Storing ligand structures with 166 pocket residue indices
+Storing 30 ligand SDF structures to LMDB...
+Storing 30 pocket indices to LMDB...
+Successfully stored 30 ligand structures to LMDB databases
+SDF database: ../casp16/inference_output/ligand_sdf_pid_1523343.lmdb
+Indices database: ../casp16/inference_output/pocket_indices_pid_1523343.lmdb
+End infer, time spent: 45.3451292514801
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_2413863
+LMDB paths prepared:
+  SDF: ../casp16/inference_output/ligand_sdf_pid_2413863.lmdb
+  Indices: ../casp16/inference_output/pocket_indices_pid_2413863.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../casp16/inference_output --index-csv ../casp16/data.csv --preprocess-dir ../casp16/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 30
+No existing keys found, processing all data
+Data points to process: 30
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_2414636
+LMDB paths prepared:
+  SDF: ../casp16/inference_output/ligand_sdf_pid_2414636.lmdb
+  Indices: ../casp16/inference_output/pocket_indices_pid_2414636.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../casp16/inference_output --index-csv ../casp16/data.csv --preprocess-dir ../casp16/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 30
+No existing keys found, processing all data
+Data points to process: 30
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_2415040
+LMDB paths prepared:
+  SDF: ../val_affinity/inference_output/ligand_sdf_pid_2415040.lmdb
+  Indices: ../val_affinity/inference_output/pocket_indices_pid_2415040.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../val_affinity/inference_output --index-csv ../val_affinity/data.csv --preprocess-dir ../val_affinity/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 2707
+No existing keys found, processing all data
+Data points to process: 2707
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_3855315
+LMDB paths prepared:
+  SDF: ../collins/inference_output/ligand_sdf_pid_3855315.lmdb
+  Indices: ../collins/inference_output/pocket_indices_pid_3855315.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../collins/inference_output --index-csv ../collins/data.csv --preprocess-dir ../collins/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 730
+No existing keys found, processing all data
+Data points to process: 730
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_3859400
+LMDB paths prepared:
+  SDF: ../collins/inference_output/ligand_sdf_pid_3859400.lmdb
+  Indices: ../collins/inference_output/pocket_indices_pid_3859400.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../collins/inference_output --index-csv ../collins/data.csv --preprocess-dir ../collins/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 730
+No existing keys found, processing all data
+Data points to process: 730
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Starting LMDB storage of ligand structures and pocket indices...
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_3870231
+LMDB paths prepared:
+  SDF: ../collins/inference_output/ligand_sdf_pid_3870231.lmdb
+  Indices: ../collins/inference_output/pocket_indices_pid_3870231.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../collins/inference_output --index-csv ../collins/data.csv --preprocess-dir ../collins/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 730
+No existing keys found, processing all data
+Data points to process: 730
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_3897062
+LMDB paths prepared:
+  SDF: ../collins/inference_output/ligand_sdf_pid_3897062.lmdb
+  Indices: ../collins/inference_output/pocket_indices_pid_3897062.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../collins/inference_output --index-csv ../collins/data.csv --preprocess-dir ../collins/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 730
+No existing keys found, processing all data
+Data points to process: 730
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_3903562
+LMDB paths prepared:
+  SDF: ../collins/inference_output/ligand_sdf_pid_3903562.lmdb
+  Indices: ../collins/inference_output/pocket_indices_pid_3903562.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../collins/inference_output --index-csv ../collins/data.csv --preprocess-dir ../collins/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 730
+No existing keys found, processing all data
+Data points to process: 730
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_3934997
+LMDB paths prepared:
+  SDF: ../collins/inference_output/ligand_sdf_pid_3934997.lmdb
+  Indices: ../collins/inference_output/pocket_indices_pid_3934997.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../collins/inference_output --index-csv ../collins/data.csv --preprocess-dir ../collins/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 715
+No existing keys found, processing all data
+Data points to process: 715
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_3975639
+LMDB paths prepared:
+  SDF: ../collins/inference_output/ligand_sdf_pid_3975639.lmdb
+  Indices: ../collins/inference_output/pocket_indices_pid_3975639.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../collins/inference_output --index-csv ../collins/data.csv --preprocess-dir ../collins/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 715
+No existing keys found, processing all data
+Data points to process: 715
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Starting LMDB storage of ligand structures and pocket indices...
+Storing ligand structures with 190 pocket residue indices
+Storing 715 ligand SDF structures to LMDB...
+Storing 715 pocket indices to LMDB...
+Successfully stored 715 ligand structures to LMDB databases
+SDF database: ../collins/inference_output/ligand_sdf_pid_3975639.lmdb
+Indices database: ../collins/inference_output/pocket_indices_pid_3975639.lmdb
+End infer, time spent: 564.2494707107544
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_93349
+LMDB paths prepared:
+  SDF: ../collins/inference_output/ligand_sdf_pid_93349.lmdb
+  Indices: ../collins/inference_output/pocket_indices_pid_93349.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../collins/inference_output --index-csv ../collins/data.csv --preprocess-dir ../collins/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 730
+No existing keys found, processing all data
+Data points to process: 730
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_100112
+LMDB paths prepared:
+  SDF: ../collins/inference_output/ligand_sdf_pid_100112.lmdb
+  Indices: ../collins/inference_output/pocket_indices_pid_100112.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../collins/inference_output --index-csv ../collins/data.csv --preprocess-dir ../collins/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 730
+No existing keys found, processing all data
+Data points to process: 730
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Starting LMDB storage of ligand structures and pocket indices...
+Storing ligand structures with 190 pocket residue indices
+Storing 730 ligand SDF structures to LMDB...
+Storing 730 pocket indices to LMDB...
+Successfully stored 730 ligand structures to LMDB databases
+SDF database: ../collins/inference_output/ligand_sdf_pid_100112.lmdb
+Indices database: ../collins/inference_output/pocket_indices_pid_100112.lmdb
+End infer, time spent: 596.2135806083679
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_1213572
+LMDB paths prepared:
+  SDF: ../collins/inference_output/ligand_sdf_pid_1213572.lmdb
+  Indices: ../collins/inference_output/pocket_indices_pid_1213572.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../collins/inference_output --index-csv ../collins/data.csv --preprocess-dir ../collins/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 730
+No existing keys found, processing all data
+Data points to process: 730
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_1214648
+LMDB paths prepared:
+  SDF: ../collins/inference_output/ligand_sdf_pid_1214648.lmdb
+  Indices: ../collins/inference_output/pocket_indices_pid_1214648.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../collins/inference_output --index-csv ../collins/data.csv --preprocess-dir ../collins/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 730
+No existing keys found, processing all data
+Data points to process: 730
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_1215270
+LMDB paths prepared:
+  SDF: ../collins/inference_output/ligand_sdf_pid_1215270.lmdb
+  Indices: ../collins/inference_output/pocket_indices_pid_1215270.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../collins/inference_output --index-csv ../collins/data.csv --preprocess-dir ../collins/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 730
+No existing keys found, processing all data
+Data points to process: 730
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus
+Begin inference
+Starting LMDB storage of ligand structures and pocket indices...
+Storing ligand structures with 190 pocket residue indices
+Storing 730 ligand SDF structures to LMDB...
+Storing 730 pocket indices to LMDB...
+Successfully stored 730 ligand structures to LMDB databases
+SDF database: ../collins/inference_output/ligand_sdf_pid_1215270.lmdb
+Indices database: ../collins/inference_output/pocket_indices_pid_1215270.lmdb
+End infer, time spent: 579.1798093318939
+Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+
+Mixed precision type: no
+
+Working directory is /projects/jlab/jiang.song/FABind_plus/fabind
+Using instance ID: pid_3248438
+LMDB paths prepared:
+  SDF: ../collins/inference_output/ligand_sdf_pid_3248438.lmdb
+  Indices: ../collins/inference_output/pocket_indices_pid_3248438.lmdb
+inference_regression_fabind.py --ckpt ../ckpt/fabind_plus_best_ckpt.bin --batch_size 4 --post-optim --write-mol-to-file --sdf-output-path-post-optim ../collins/inference_output --index-csv ../collins/data.csv --preprocess-dir ../collins/repr_files
+Checking for existing LMDB data...
+Original CSV rows: 730
+No existing keys found, processing all data
+Data points to process: 730
+Creating LMDB environments...
+LMDB environments created successfully
+FABind plus

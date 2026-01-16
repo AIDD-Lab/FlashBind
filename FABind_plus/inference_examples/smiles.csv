@@ -1,0 +1,7 @@
+Cleaned_SMILES,ligand_id
+CC[C@H](C)[C@H](NC(C)=O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@@H](CCC(=O)O)C(=O)N[C@H](C(=O)N[C@@H](CC(=O)O)C(=O)O)C(C)C,6efk
+CC(C)CCN1c2nc(Nc3cc(F)c(O)c(F)c3)ncc2N(C)C(=O)C1(C)C,6g3c
+CC(C)(CO[P@@](=O)(O)O[P@](=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O)[C@@H](O)C(=O)NCCC(=O)NCCO,6n93
+CC(=O)NC1C(O)C=C(C(=O)O)OC1C(O)C(O)CO,6ckl
+CCOC(=O)N1CCC(NS(=O)(=O)c2cc3c(cc2C)NC(=O)CO3)CC1,3243921
+O=C(NCc1cccnc1)C1CC(=O)N(CCc2ccccc2)C1,4047579

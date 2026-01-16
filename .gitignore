@@ -1,0 +1,6 @@
+**/__pycache__/
+checkpoints/
+./scripts/eval/*.json
+tmp.py
+*.pyc
+*.json

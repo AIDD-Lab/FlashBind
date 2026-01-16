@@ -1,0 +1,281 @@
+trainer:
+  accelerator: gpu
+  devices: 4
+  precision: 32
+  gradient_clip_val: 4
+  max_epochs: 1000
+  accumulate_grad_batches: 3
+  check_val_every_n_epoch: 1
+  log_every_n_steps: 1
+  enable_progress_bar: true
+  enable_model_summary: true
+  deterministic: true
+wandb:
+  name: affinity-enzyme-0
+  project: affinity
+  entity: clorf-sjtu
+output: ../affinity_enzyme
+save_top_k: 3
+save_every_n_steps: 50
+disable_checkpoint: false
+resume: null
+pretrained: null
+matmul_precision: highest
+find_unused_parameters: true
+static_graph: false
+validation_only: false
+debug: false
+strict_loading: true
+data:
+  train_sets:
+    datasets:
+    - type: enzyme
+      structure: ./data/ESIBank/Brenda/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/Brenda/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/Brenda/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/Brenda/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/Brenda/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/Brenda/repr/unimol.lmdb
+      label: ./data/ESIBank/Brenda/labels.json
+      id_list: ./data/ESIBank/Brenda/data_split/train_id_0.json
+    - type: enzyme
+      structure: ./data/ESIBank/DUF/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/DUF/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/DUF/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/DUF/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/DUF/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/DUF/repr/unimol.lmdb
+      label: ./data/ESIBank/DUF/labels.json
+      id_list: ./data/ESIBank/DUF/data_split/train_id_0.json
+    - type: enzyme
+      structure: ./data/ESIBank/Esterase/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/Esterase/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/Esterase/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/Esterase/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/Esterase/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/Esterase/repr/unimol.lmdb
+      label: ./data/ESIBank/Esterase/labels.json
+      id_list: ./data/ESIBank/Esterase/data_split/train_id_0.json
+    - type: enzyme
+      structure: ./data/ESIBank/Glycosyltransferase/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/Glycosyltransferase/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/Glycosyltransferase/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/Glycosyltransferase/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/Glycosyltransferase/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/Glycosyltransferase/repr/unimol.lmdb
+      label: ./data/ESIBank/Glycosyltransferase/labels.json
+      id_list: ./data/ESIBank/Glycosyltransferase/data_split/train_id_0.json
+    - type: enzyme
+      structure: ./data/ESIBank/Halogenase/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/Halogenase/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/Halogenase/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/Halogenase/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/Halogenase/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/Halogenase/repr/unimol.lmdb
+      label: ./data/ESIBank/Halogenase/labels.json
+      id_list: ./data/ESIBank/Halogenase/data_split/train_id_0.json
+    - type: enzyme
+      structure: ./data/ESIBank/Nitrilase/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/Nitrilase/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/Nitrilase/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/Nitrilase/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/Nitrilase/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/Nitrilase/repr/unimol.lmdb
+      label: ./data/ESIBank/Nitrilase/labels.json
+      id_list: ./data/ESIBank/Nitrilase/data_split/train_id_0.json
+    - type: enzyme
+      structure: ./data/ESIBank/Phosphatase/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/Phosphatase/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/Phosphatase/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/Phosphatase/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/Phosphatase/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/Phosphatase/repr/unimol.lmdb
+      label: ./data/ESIBank/Phosphatase/labels.json
+      id_list: ./data/ESIBank/Phosphatase/data_split/train_id_0.json
+    - type: enzyme
+      structure: ./data/ESIBank/Thiolase/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/Thiolase/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/Thiolase/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/Thiolase/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/Thiolase/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/Thiolase/repr/unimol.lmdb
+      label: ./data/ESIBank/Thiolase/labels.json
+      id_list: ./data/ESIBank/Thiolase/data_split/train_id_0.json
+    samples_per_epoch: 120000
+    batch_size: 20
+    group_size: 5
+    active_ratio: 0.2
+    num_workers: 16
+    pin_memory: true
+  val_sets:
+    datasets:
+    - type: enzyme
+      structure: ./data/ESIBank/Brenda/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/Brenda/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/Brenda/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/Brenda/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/Brenda/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/Brenda/repr/unimol.lmdb
+      label: ./data/ESIBank/Brenda/labels.json
+      id_list: ./data/ESIBank/Brenda/data_split/val_id_0.json
+    - type: enzyme
+      structure: ./data/ESIBank/DUF/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/DUF/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/DUF/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/DUF/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/DUF/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/DUF/repr/unimol.lmdb
+      label: ./data/ESIBank/DUF/labels.json
+      id_list: ./data/ESIBank/DUF/data_split/val_id_0.json
+    - type: enzyme
+      structure: ./data/ESIBank/Esterase/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/Esterase/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/Esterase/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/Esterase/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/Esterase/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/Esterase/repr/unimol.lmdb
+      label: ./data/ESIBank/Esterase/labels.json
+      id_list: ./data/ESIBank/Esterase/data_split/val_id_0.json
+    - type: enzyme
+      structure: ./data/ESIBank/Glycosyltransferase/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/Glycosyltransferase/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/Glycosyltransferase/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/Glycosyltransferase/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/Glycosyltransferase/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/Glycosyltransferase/repr/unimol.lmdb
+      label: ./data/ESIBank/Glycosyltransferase/labels.json
+      id_list: ./data/ESIBank/Glycosyltransferase/data_split/val_id_0.json
+    - type: enzyme
+      structure: ./data/ESIBank/Halogenase/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/Halogenase/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/Halogenase/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/Halogenase/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/Halogenase/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/Halogenase/repr/unimol.lmdb
+      label: ./data/ESIBank/Halogenase/labels.json
+      id_list: ./data/ESIBank/Halogenase/data_split/val_id_0.json
+    - type: enzyme
+      structure: ./data/ESIBank/Nitrilase/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/Nitrilase/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/Nitrilase/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/Nitrilase/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/Nitrilase/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/Nitrilase/repr/unimol.lmdb
+      label: ./data/ESIBank/Nitrilase/labels.json
+      id_list: ./data/ESIBank/Nitrilase/data_split/val_id_0.json
+    - type: enzyme
+      structure: ./data/ESIBank/Phosphatase/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/Phosphatase/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/Phosphatase/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/Phosphatase/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/Phosphatase/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/Phosphatase/repr/unimol.lmdb
+      label: ./data/ESIBank/Phosphatase/labels.json
+      id_list: ./data/ESIBank/Phosphatase/data_split/val_id_0.json
+    - type: enzyme
+      structure: ./data/ESIBank/Thiolase/protein_pdb.lmdb
+      structure_type: pdb
+      ligand: ./data/ESIBank/Thiolase/ligand_sdf.lmdb
+      ligand_type: sdf
+      protein_repr: ./data/ESIBank/Thiolase/repr/esm3.lmdb
+      ligand_repr: ./data/ESIBank/Thiolase/repr/torchdrug.lmdb
+      morgan_repr: ./data/ESIBank/Thiolase/repr/morgan.lmdb
+      unimol_repr: ./data/ESIBank/Thiolase/repr/unimol.lmdb
+      label: ./data/ESIBank/Thiolase/labels.json
+      id_list: ./data/ESIBank/Thiolase/data_split/val_id_0.json
+    batch_size: 20
+    num_workers: 16
+    pin_memory: true
+  max_atoms: 2048
+  max_edges: 16384
+  max_residues: 512
+  protein_edge_cutoff: 4.0
+  cross_edge_cutoff: 10.0
+  distance_threshold: 20.0
+model:
+  _target_: affinity.model.model.AffinityModel
+  compile_encoder: false
+  ema: true
+  ema_decay: 0.999
+  use_morgan: true
+  use_unimol: true
+  loss_args:
+    alpha: 0.7
+    gamma: 1.0
+    delta: 0.5
+    group_size: 5
+  encoder_args:
+    protein_repr_dim: 1536
+    ligand_repr_dim: 56
+    hidden_dim: 192
+    output_dim: 192
+    num_layers: 5
+    edge_dim: 12
+    m_dim: 16
+    dropout: 0.1
+    norm_feats: true
+    norm_coors: true
+    fourier_features: 8
+    coor_weights_clamp_value: 2.0
+    num_edge_types: 10
+    attn_every: 0
+    attn_heads: 6
+    attn_dim_head: 64
+  predictor_args:
+    hidden_dim: 192
+    dropout: 0.1
+  training_args:
+    optimizer_type: adamw
+    adam_beta_1: 0.9
+    adam_beta_2: 0.999
+    adam_eps: 1.0e-08
+    lr_scheduler: reduce_on_plateau
+    reduce_lr_factor: 0.5
+    reduce_lr_patience: 10
+    reduce_lr_monitor: val/enzyme_all_Global_AUROC
+    reduce_lr_mode: max
+    base_lr: 5.0e-06
+    max_lr: 0.0003
+    min_lr: 6.0e-06
+    warmup_epochs: 20
+    weight_decay: 0
+    value_loss_weight: 1
+    prob_loss_weight: 1
+    enzyme_loss_weight: 1
+early_stopping:
+  enabled: true
+  monitor: val/enzyme_all_Global_AUROC
+  patience: 60
+  min_delta: 0.0
+  mode: max
+  verbose: false

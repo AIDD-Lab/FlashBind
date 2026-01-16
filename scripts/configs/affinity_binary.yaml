@@ -1,0 +1,113 @@
+trainer:
+  accelerator: gpu
+  devices: 4
+  precision: 32
+  gradient_clip_val: 2.0
+  max_epochs: 1000
+  accumulate_grad_batches: 1
+  check_val_every_n_epoch: 2
+  log_every_n_steps: 1
+  enable_progress_bar: true
+  enable_model_summary: true
+  deterministic: true
+wandb:
+  name: affinity-binary
+  project: affinity
+  entity: clorf-sjtu
+output: ../affinity_binary
+save_top_k: 3
+save_every_n_steps: 50
+disable_checkpoint: false
+pretrained: null
+matmul_precision: highest
+find_unused_parameters: true
+static_graph: true
+validation_only: false
+debug: false
+strict_loading: true
+data:
+  train_sets:
+    datasets:
+    - type: binary
+      structure: ./data/pubchem/pdb
+      structure_type: pdb
+      ligand: ./data/pubchem/ligand_sdf.lmdb
+      ligand_type: sdf
+      pocket_indices: ./data/pubchem/pocket_indices.lmdb
+      protein_repr: ./data/pubchem/repr/esm3.pt
+      ligand_repr: ./data/pubchem/repr/torchdrug.lmdb
+      label: ./data/pubchem/labels.json
+      id_list: ./data/pubchem/id.json
+      prob: 1.0
+    samples_per_epoch: 60000
+    batch_size: 20
+    group_size: 5
+    active_ratio: 0.2
+    num_workers: 16
+    pin_memory: true
+  val_sets:
+    datasets:
+    - type: binary
+      structure: ./data/lit-pcba/pdb
+      structure_type: pdb
+      ligand: ./data/lit-pcba/ligand_sdf.lmdb
+      ligand_type: sdf
+      pocket_indices: ./data/lit-pcba/pocket_indices.lmdb
+      protein_repr: ./data/lit-pcba/repr/esm3.pt
+      ligand_repr: ./data/lit-pcba/repr/torchdrug.lmdb
+      label: ./data/lit-pcba/labels.json
+      id_list: ./data/lit-pcba/id.json
+    batch_size: 20
+    num_workers: 16
+    pin_memory: true
+  max_atoms: 2048
+  max_edges: 16384
+  max_residues: 512
+  protein_edge_cutoff: 4.0
+  cross_edge_cutoff: 10.0
+  distance_threshold: 20.0
+model:
+  _target_: affinity.model.model.AffinityModel
+  compile_encoder: false
+  ema: true
+  ema_decay: 0.999
+  loss_args:
+    alpha: 0.7
+    gamma: 1.0
+    delta: 0.5
+    group_size: 5
+  encoder_args:
+    protein_repr_dim: 1536
+    ligand_repr_dim: 56
+    hidden_dim: 192
+    output_dim: 192
+    num_layers: 5
+    edge_dim: 12
+    m_dim: 16
+    dropout: 0.1
+    norm_feats: true
+    norm_coors: true
+    fourier_features: 8
+    coor_weights_clamp_value: 2.0
+    num_edge_types: 10
+    attn_every: 0
+    attn_heads: 6
+    attn_dim_head: 64
+  predictor_args:
+    hidden_dim: 192
+    dropout: 0.1
+  training_args:
+    optimizer_type: muon
+    muon_lr: 0.002
+    muon_weight_decay: 0.01
+    adam_beta_1: 0.9
+    adam_beta_2: 0.95
+    adam_eps: 1.0e-08
+    lr_scheduler: cosine_restart
+    t_0: 80000
+    base_lr: 0
+    max_lr: 0.0001
+    warmup_steps: 50
+    weight_decay: 0.001
+    value_loss_weight: 1
+    prob_loss_weight: 1
