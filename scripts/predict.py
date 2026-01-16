@@ -296,7 +296,7 @@ def main(args) -> None:
             for k in keys_to_remove:
                 del state_dict[k]
 
-        model_module = AffinityModel(**hparams,)
+        model_module = AffinityModel(**hparams)
         model_module.load_state_dict(state_dict, strict=False)
         model_module.eval()
 
