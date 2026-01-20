@@ -49,6 +49,16 @@ The `structure` field behaves differently depending on `ligand_type`:
 - **When `ligand_type=sdf`**: The `structure` contains only the protein structure.
 - **When `ligand_type=smiles`**: The `structure` contains the protein-ligand complex structure. In this case, ligand bond information is determined from the SMILES string.
 
+#### Atom Order Alignment in SDF Mode
+
+When using `ligand_type=sdf`, the atom order in SDF files must match the order in `ligand_repr`. By default, this pipeline assumes SDF files are generated from FABind+ docking, which preserves the canonical SMILES atom order.
+
+If your SDF files come from other sources, you must manually ensure the atom order matches `ligand_repr`. See `src/affinity/data/repr/torchdrug.py` for the `read_smiles` function that defines our canonical ordering.
+
+**Important:** Applying similar canonicalization directly to SDF molecules (via `MolToSmiles` + `RenumberAtoms`) may produce different results than canonicalizing from SMILES. This is because RDKit's canonical ranking can be influenced by additional information in SDF files (e.g., 3D coordinates, bond storage order), leading to different tie-breaking decisions for symmetric atoms.
+
+If you cannot guarantee atom order alignment, use the complex mode instead (`ligand_type=smiles` with protein-ligand complex structures). Complex mode uses substructure matching to explicitly align coordinates to the canonical SMILES order.
+
 #### Pocket Indices
 
 The `pocket_indices` field is optional:
