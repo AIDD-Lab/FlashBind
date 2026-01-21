@@ -49,6 +49,22 @@ The `structure` field behaves differently depending on `ligand_type`:
 - **When `ligand_type=sdf`**: The `structure` contains only the protein structure.
 - **When `ligand_type=smiles`**: The `structure` contains the protein-ligand complex structure. In this case, ligand bond information is determined from the SMILES string.
 
+#### Resource Key Conventions
+
+The following table shows the expected keys for each resource type:
+
+| Resource | SDF Mode Key | Complex Mode Key |
+|----------|--------------|------------------|
+| `structure` | `prot_id` | `{prot_id}_{ligand_id}` |
+| `ligand` | `{prot_id}_{ligand_id}` | `ligand_id` |
+| `protein_repr` | `prot_id` | `prot_id` |
+| `ligand_repr` | `ligand_id` | `ligand_id` |
+| `pocket_indices` | `{prot_id}_{ligand_id}` | `{prot_id}_{ligand_id}` |
+
+Where `{prot_id}_{ligand_id}` corresponds to the sample ID format in `id_list`.
+
+**Note:** In SDF mode, `structure` contains only the protein and is shared across ligands, so it uses `prot_id` as the key. In complex mode, `structure` contains the protein-ligand complex, so it uses the full sample ID. The `ligand` field in SDF mode stores docking poses (one per protein-ligand pair), while in complex mode it stores SMILES strings (shared across proteins).
+
 #### Atom Order Alignment in SDF Mode
 
 When using `ligand_type=sdf`, the atom order in SDF files must match the order in `ligand_repr`. By default, this pipeline assumes SDF files are generated from FABind+ docking, which preserves the canonical SMILES atom order.
