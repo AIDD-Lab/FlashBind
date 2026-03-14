@@ -16,8 +16,8 @@ conda activate flashaffinity
 
 ## Model & Data
 
-- **Model Checkpoints**: [Model](https://huggingface.co/clorf6/FlashAffinity)
-- **Datasets**: [Datasets](https://huggingface.co/datasets/clorf6/FlashAffinity)
+- **Model Checkpoints**: [Model](https://huggingface.co/clorf6/FlashBind)
+- **Datasets**: [Datasets](https://huggingface.co/datasets/clorf6/FlashBind)
 
 ## Supported Tasks
 
