@@ -1,9 +1,9 @@
-# FlashAffinity
+# FlashBind
 
 [![Paper](https://img.shields.io/badge/Paper-MLSB%202025-blue)](https://openreview.net/pdf?id=TZTahjQNjX)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-Official implementation of **"FlashAffinity: Bridging the Accuracy-Speed Gap in Protein-Ligand Binding Affinity Prediction"**, Accepted at **MLSB Workshop 2025**.
+Official implementation of **"FlashBind: Towards Accurate and Efficient Structure-based Virtual Screening"** and **"FlashAffinity: Bridging the Accuracy-Speed Gap in Protein-Ligand Binding Affinity Prediction"**, Accepted at **MLSB Workshop 2025**.
 
 A ultra-fast protein-ligand affinity prediction framework supporting multiple prediction tasks: binary activity classification, enzyme-substrate interaction prediction, and affinity value regression.
 
